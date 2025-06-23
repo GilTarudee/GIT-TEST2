@@ -13,15 +13,20 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+
     steps:
       - uses: actions/checkout@v4
-      - name: Build your site
+
+      - name: Build site
         run: |
           echo "Hello GitHub Pages" > index.html
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./
+
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
