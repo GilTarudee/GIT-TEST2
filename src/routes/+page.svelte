@@ -13,7 +13,7 @@
     My Applications
   </h1>
   
-  <Button class="shadow-lg shadow-sky-700/50 hover:bg-sky-700 text-center m-2 font-bold" href="/calculator_PBenz" id="calculator_app">
+  <!-- <Button class="shadow-lg shadow-sky-700/50 hover:bg-sky-700 text-center m-2 font-bold" href="/calculator_PBenz" id="calculator_app">
     Calculator
   </Button>
   
@@ -23,7 +23,7 @@
 
   <Button class="shadow-lg shadow-sky-700/50 hover:bg-sky-700 text-center m-2 font-bold " href="/digimon" id="To do lists app">
     Digimon Info
-  </Button>
+  </Button> -->
 
 </div>
 
