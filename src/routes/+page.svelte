@@ -12,6 +12,10 @@
   <h1 class="text-xl m-3 font-bold ">
     My Applications
   </h1>
+
+  <Button class="shadow-lg shadow-sky-700/50 hover:bg-sky-700 text-center m-2 font-bold" href="/clock_app" id="clock_app">
+    Cinamon Clock
+  </Button>
   
   <!-- <Button class="shadow-lg shadow-sky-700/50 hover:bg-sky-700 text-center m-2 font-bold" href="/calculator_PBenz" id="calculator_app">
     Calculator
