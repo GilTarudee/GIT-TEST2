@@ -1,6 +1,7 @@
 <script lang="ts">
     import Button from '$lib/iu/Button.svelte';
     import type { PageProps } from './$types';
+    import { base } from '$app/paths';
 	
     import Clock from './Clock.svelte';
 	import ClockSec from './ClockSEC.svelte';
@@ -10,9 +11,9 @@
     let { data }: PageProps = $props();
   
     let images: string[] = [
-      '/images/cinnamon1.png',
-      '/images/cinnamon2.png',
-      '/images/cinnamon3.png'
+      '{base}/images/cinnamon1.png',
+      '{base}/images/cinnamon2.png',
+      '{base}/images/cinnamon3.png'
     ];
   
     let currentIndex = $state(0);
@@ -66,4 +67,3 @@
 </div>
 
   
-
