@@ -14,10 +14,11 @@
     Cinamon Clock
   </Button> -->
 
-  <Button>
+  <Button
     class="shadow-lg shadow-sky-700/50 hover:bg-sky-700 text-center m-2 font-bold"
     href={`${base}/calculator_PBenz`}
     id="calculator_app"
+  >
     Calculator
   </Button>
 
