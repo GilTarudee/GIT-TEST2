@@ -11,9 +11,9 @@
     let { data }: PageProps = $props();
   
     let images: string[] = [
-      `${base}/images/cinnamon1.png`,
-      `${base}/images/cinnamon2.png`,
-      `${base}/images/cinnamon3.png`
+    `${base}/images/cinnamon1.png`,
+    `${base}/images/cinnamon2.png`,
+    `${base}/images/cinnamon3.png`
     ];
   
     let currentIndex = $state(0);
