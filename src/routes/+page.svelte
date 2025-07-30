@@ -1,23 +1,20 @@
 <script lang="ts">
-  import Button from '$lib/iu/Button.svelte';
-  import type {PageProps} from './$types';
+  import Button from "$lib/iu/Button.svelte";
+  import type { PageProps } from "./$types";
+  import { base } from "$app/paths";
 
-  let {data}: PageProps = $props();
+  let { data }: PageProps = $props();
 </script>
 
-<div class= "bg-sky-100 h-full w-full">
+<div class="bg-sky-100 h-full w-full">
+  <div class="h-65 grid place-content-center">
+    <h1 class="text-xl m-3 font-bold">My Applications</h1>
 
-<div class="h-65 grid place-content-center">
-  
-  <h1 class="text-xl m-3 font-bold ">
-    My Applications
-  </h1>
-
-  <!-- <Button class="shadow-lg shadow-sky-700/50 hover:bg-sky-700 text-center m-2 font-bold" href="/clock_app" id="clock_app">
+    <!-- <Button class="shadow-lg shadow-sky-700/50 hover:bg-sky-700 text-center m-2 font-bold" href="/clock_app" id="clock_app">
     Cinamon Clock
   </Button> -->
-  
-  <!-- <Button class="shadow-lg shadow-sky-700/50 hover:bg-sky-700 text-center m-2 font-bold" href="/calculator_PBenz" id="calculator_app">
+
+    <!-- <Button class="shadow-lg shadow-sky-700/50 hover:bg-sky-700 text-center m-2 font-bold" href="/calculator_PBenz" id="calculator_app">
     Calculator
   </Button>
   
@@ -26,14 +23,16 @@
   </Button>
   --->
 
-  <Button class="shadow-lg shadow-sky-700/50 hover:bg-sky-700 text-center m-2 font-bold " href="/digimon" id="Digi info">
-    Digimon Info
-  </Button>
+    <Button
+      class="shadow-lg shadow-sky-700/50 hover:bg-sky-700 text-center m-2 font-bold "
+      href={`${base}/digimon`}
+      id="Digi info"
+    >
+      Digimon Info
+    </Button>
+  </div>
 
-</div>
-
-<div class="text-gray-600 py-3 px-3 font-bold grid place-items-end">
-Wait for new apps..
-</div>
-
+  <div class="text-gray-600 py-3 px-3 font-bold grid place-items-end">
+    Wait for new apps..
+  </div>
 </div>
