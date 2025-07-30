@@ -10,38 +10,39 @@
   <div class="h-65 grid place-content-center">
     <h1 class="text-xl m-3 font-bold">My Applications</h1>
 
-  <Button 
-  class="shadow-lg shadow-sky-700/50 hover:bg-sky-700 text-center m-2 font-bold" 
-  href={`${base}/clock_app`}
-  id="clock_app"
-  >
-    Cinamon Clock
+      <Button 
+      class="shadow-lg shadow-sky-700/50 hover:bg-sky-700 text-center m-2 font-bold" 
+      href={`${base}/clock_app`}
+      id="clock_app"
+      >
+        Cinamon Clock
 
 
-  <Button
-    class="shadow-lg shadow-sky-700/50 hover:bg-sky-700 text-center m-2 font-bold"
-    href={`${base}/calculator_PBenz`}
-    id="calculator_app"
-  >
-    Calculator
-  </Button>
+      <Button
+        class="shadow-lg shadow-sky-700/50 hover:bg-sky-700 text-center m-2 font-bold"
+        href={`${base}/calculator_PBenz`}
+        id="calculator_app"
+      >
+        Calculator
+      </Button>
 
 
-  <Button 
-  class="shadow-lg shadow-sky-700/50 hover:bg-sky-700 text-center m-2 font-bold" 
-  href={`${base}/todolist`} 
-  id="To do lists app">
-    To do lists
-  </Button>
-  
+      <Button 
+      class="shadow-lg shadow-sky-700/50 hover:bg-sky-700 text-center m-2 font-bold" 
+      href={`${base}/todolist`} 
+      id="To do lists app"
+      >
+        To do lists
+      </Button>
+      
 
-    <Button
-      class="shadow-lg shadow-sky-700/50 hover:bg-sky-700 text-center m-2 font-bold "
-      href={`${base}/digimon`}
-      id="Digi info"
-    >
-      Digimon Info
-    </Button>
+      <Button
+        class="shadow-lg shadow-sky-700/50 hover:bg-sky-700 text-center m-2 font-bold "
+        href={`${base}/digimon`}
+        id="Digi info"
+      >
+          Digimon Info
+      </Button>
   </div>
 
   <div class="text-gray-600 py-3 px-3 font-bold grid place-items-end">
