@@ -10,9 +10,13 @@
   <div class="h-65 grid place-content-center">
     <h1 class="text-xl m-3 font-bold">My Applications</h1>
 
-    <!-- <Button class="shadow-lg shadow-sky-700/50 hover:bg-sky-700 text-center m-2 font-bold" href="/clock_app" id="clock_app">
+  <Button 
+  class="shadow-lg shadow-sky-700/50 hover:bg-sky-700 text-center m-2 font-bold" 
+  href={`${base}/clock_app`}
+  id="clock_app"
+  >
     Cinamon Clock
-  </Button> -->
+
 
   <Button
     class="shadow-lg shadow-sky-700/50 hover:bg-sky-700 text-center m-2 font-bold"
@@ -22,11 +26,14 @@
     Calculator
   </Button>
 
-  <!-- 
-  <Button class="shadow-lg shadow-sky-700/50 hover:bg-sky-700 text-center m-2 font-bold" href="/todolist" id="To do lists app">
+
+  <Button 
+  class="shadow-lg shadow-sky-700/50 hover:bg-sky-700 text-center m-2 font-bold" 
+  href={`${base}/todolist`} 
+  id="To do lists app">
     To do lists
   </Button>
-  --->
+  
 
     <Button
       class="shadow-lg shadow-sky-700/50 hover:bg-sky-700 text-center m-2 font-bold "
